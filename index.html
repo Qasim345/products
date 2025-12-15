@@ -49,7 +49,7 @@
                             <td>${product.name}</td>
                             <td>${product.days} روز</td>
                             <td>${product.operator}</td>
-                            <td>${product.sim_type}</td>
+                            <td>${product.sim_type == 'credit' ? 'اعتباری' : 'دایمی'}</td>
                             <td><b>${product.amount_rial}</b> تومان</td>
                         `;
                         tbody.appendChild(row);
@@ -88,6 +88,7 @@
 </body>
 
 </html>
+
 
 
 
