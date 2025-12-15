@@ -23,6 +23,7 @@
                             <th>اسم</th>
                             <th>مدت اعتبار</th>
                             <th>نوع شبکه</th>
+                            <th>نوع سیمکارت</th>
                             <th>قیمت</th>
                         </tr>
                     </thead>
@@ -48,6 +49,7 @@
                             <td>${product.name}</td>
                             <td>${product.days} روز</td>
                             <td>${product.operator}</td>
+                            <td>${product.sim_type}</td>
                             <td><b>${product.amount_rial}</b> تومان</td>
                         `;
                         tbody.appendChild(row);
@@ -86,6 +88,7 @@
 </body>
 
 </html>
+
 
 
 
